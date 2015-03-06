@@ -1,0 +1,8 @@
+tile.keller1710example_multiBlock.firstMeta.name=First Meta Block
+tile.keller1710example_multiBlock.secondMeta.name=Second Meta Block
+tile.keller1710example_multiBlock.thirdMeta.name=Third Meta Block
+tile.keller1710example_steakOre.name=Steak Ore
+tile.keller1710example_testBlock.name=Test Block
+tile.keller1710example_tileEntitySmasher.name=Tile Entity Smasher
+tile.keller1710example_testFood.name=Test Food
+tile.keller1710example_testItem.name=Test Item

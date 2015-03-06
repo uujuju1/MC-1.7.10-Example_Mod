@@ -1,0 +1,16 @@
+[
+{
+  "modid": "keller1710example",
+  "name": "Keller's 1.7.10 Example Mod",
+  "description": "Example placeholder mod.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["shaynemk"],
+  "credits": "Following the 1.7.10 IntelliJ tut from orangetutorial.com.",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
