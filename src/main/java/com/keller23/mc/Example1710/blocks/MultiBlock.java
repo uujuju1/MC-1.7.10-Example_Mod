@@ -18,7 +18,7 @@ public class MultiBlock extends Block {
 
     private final String name = "multiBlock";
     private final int maxMeta = 3;
-    private IIcon[] icons;
+    private IIcon[] icons = new IIcon[6];
 
     public MultiBlock() {
         super(Material.rock);

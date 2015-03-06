@@ -19,7 +19,9 @@ public class BeefOre extends Block {
         super(Material.rock);
         setCreativeTab(CTabs.tabBlocks);
         setBlockName(Constants.ModID + "_" + name);
+        setHardness(3.0F);
         GameRegistry.registerBlock(this, name);
+
     }
 
     @Override
