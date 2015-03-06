@@ -1,6 +1,6 @@
-package com.keller23.mc.Example1710.creativetabs;
+package com.keller23.mc17.ExampleMod.creativetabs;
 
-import com.keller23.mc.Example1710.blocks.ModBlocks;
+import com.keller23.mc17.ExampleMod.blocks.ModBlocks;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 

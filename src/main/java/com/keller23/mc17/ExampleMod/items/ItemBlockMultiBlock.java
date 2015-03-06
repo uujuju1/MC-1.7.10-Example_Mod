@@ -1,4 +1,4 @@
-package com.keller23.mc.Example1710.items;
+package com.keller23.mc17.ExampleMod.items;
 
 import net.minecraft.block.Block;
 import net.minecraft.item.ItemBlock;

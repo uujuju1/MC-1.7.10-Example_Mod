@@ -1,4 +1,4 @@
-package com.keller23.mc.Example1710.blocks;
+package com.keller23.mc17.ExampleMod.blocks;
 
 import net.minecraft.block.Block;
 

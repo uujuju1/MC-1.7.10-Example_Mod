@@ -1,4 +1,4 @@
-package com.keller23.mc.Example1710.tileentities;
+package com.keller23.mc17.ExampleMod.tileentities;
 
 import net.minecraft.tileentity.TileEntity;
 

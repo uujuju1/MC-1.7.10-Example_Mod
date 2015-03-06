@@ -1,6 +1,6 @@
-package com.keller23.mc.Example1710.worldgen;
+package com.keller23.mc17.ExampleMod.worldgen;
 
-import com.keller23.mc.Example1710.blocks.ModBlocks;
+import com.keller23.mc17.ExampleMod.blocks.ModBlocks;
 import cpw.mods.fml.common.IWorldGenerator;
 import net.minecraft.block.Block;
 import net.minecraft.init.Blocks;

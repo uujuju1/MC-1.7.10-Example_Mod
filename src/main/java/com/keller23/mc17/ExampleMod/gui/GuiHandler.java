@@ -1,4 +1,4 @@
-package com.keller23.mc.Example1710.gui;
+package com.keller23.mc17.ExampleMod.gui;
 
 import cpw.mods.fml.common.network.IGuiHandler;
 import net.minecraft.entity.player.EntityPlayer;

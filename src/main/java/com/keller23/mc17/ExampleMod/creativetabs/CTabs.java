@@ -1,6 +1,6 @@
-package com.keller23.mc.Example1710.creativetabs;
+package com.keller23.mc17.ExampleMod.creativetabs;
 
-import com.keller23.mc.Example1710.lib.Constants;
+import com.keller23.mc17.ExampleMod.lib.Constants;
 import net.minecraft.creativetab.CreativeTabs;
 
 public class CTabs {

@@ -1,13 +1,13 @@
-package com.keller23.mc.Example1710;
+package com.keller23.mc17.ExampleMod;
 
 
-import com.keller23.mc.Example1710.blocks.ModBlocks;
-import com.keller23.mc.Example1710.gui.GuiHandler;
-import com.keller23.mc.Example1710.items.ModItems;
-import com.keller23.mc.Example1710.creativetabs.CTabs;
-import com.keller23.mc.Example1710.lib.Constants;
-import com.keller23.mc.Example1710.proxy.CommonProxy;
-import com.keller23.mc.Example1710.worldgen.TestWorldGen;
+import com.keller23.mc17.ExampleMod.blocks.ModBlocks;
+import com.keller23.mc17.ExampleMod.gui.GuiHandler;
+import com.keller23.mc17.ExampleMod.items.ModItems;
+import com.keller23.mc17.ExampleMod.creativetabs.CTabs;
+import com.keller23.mc17.ExampleMod.lib.Constants;
+import com.keller23.mc17.ExampleMod.proxy.CommonProxy;
+import com.keller23.mc17.ExampleMod.worldgen.TestWorldGen;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
@@ -17,10 +17,10 @@ import cpw.mods.fml.common.network.NetworkRegistry;
 import cpw.mods.fml.common.registry.GameRegistry;
 
 @Mod(modid = Constants.ModID, name = Constants.ModName, version = Constants.Version)
-public class Example1710 {
+public class ExampleMod {
 
     @Mod.Instance(Constants.ModID)
-    public static Example1710 instance;
+    public static ExampleMod instance;
 
     @SidedProxy(clientSide = Constants.CLIENT_PROXY, serverSide = Constants.COMMON_PROXY)
     public static CommonProxy proxy;

@@ -1,6 +1,6 @@
-package com.keller23.mc.Example1710.proxy;
+package com.keller23.mc17.ExampleMod.proxy;
 
-import com.keller23.mc.Example1710.tileentities.TileEntitySmasher;
+import com.keller23.mc17.ExampleMod.tileentities.TileEntitySmasher;
 import cpw.mods.fml.common.registry.GameRegistry;
 
 

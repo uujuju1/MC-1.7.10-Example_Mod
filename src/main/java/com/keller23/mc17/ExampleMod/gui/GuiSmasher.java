@@ -1,6 +1,6 @@
-package com.keller23.mc.Example1710.gui;
+package com.keller23.mc17.ExampleMod.gui;
 
-import com.keller23.mc.Example1710.lib.Constants;
+import com.keller23.mc17.ExampleMod.lib.Constants;
 import net.minecraft.client.gui.GuiScreen;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.util.ResourceLocation;
