@@ -6,6 +6,7 @@ import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.texture.IIconRegister;
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.util.IIcon;
 
 public class TestBlock extends Block {
@@ -14,10 +15,10 @@ public class TestBlock extends Block {
 
     private IIcon[] icons = new IIcon[6];
 
-    public TestBlock(){
+    public TestBlock(CreativeTabs creativeTabs){
         super(Material.rock);
         setBlockName(Constants.ModID + "_" + name); // ModID_BlockName
-        setCreativeTab(CTabs.tabBlocks);
+        setCreativeTab(creativeTabs);
         GameRegistry.registerBlock(this, name);
         //setBlockTextureName(Constants.ModID + ":" + name); // not used so we can have diff texts per side
     }

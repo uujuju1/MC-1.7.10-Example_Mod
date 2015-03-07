@@ -1,0 +1,9 @@
+itemGroup.tabKeller=Keller's 1.7 Example Mod
+tile.kellerexamplemod17_multiBlock.firstMeta.name=First Meta Block
+tile.kellerexamplemod17_multiBlock.secondMeta.name=Second Meta Block
+tile.kellerexamplemod17_multiBlock.thirdMeta.name=Third Meta Block
+tile.kellerexamplemod17_steakOre.name=Steak Ore
+tile.kellerexamplemod17_testBlock.name=Test Block
+tile.kellerexamplemod17_tileEntitySmasher.name=Tile Entity Smasher
+item.kellerexamplemod17_testFood.name=Test Food
+item.kellerexamplemod17_testItem.name=Test Item

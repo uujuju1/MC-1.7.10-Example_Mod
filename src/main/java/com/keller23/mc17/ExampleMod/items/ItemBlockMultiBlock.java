@@ -1,6 +1,7 @@
 package com.keller23.mc17.ExampleMod.items;
 
 import net.minecraft.block.Block;
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemBlock;
 import net.minecraft.item.ItemStack;
 

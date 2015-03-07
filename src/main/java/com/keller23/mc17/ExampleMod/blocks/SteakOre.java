@@ -5,6 +5,7 @@ import com.keller23.mc17.ExampleMod.lib.Constants;
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 
@@ -14,9 +15,9 @@ public class SteakOre extends Block {
 
     public static String name = "steakOre";
 
-    public SteakOre(){
+    public SteakOre(CreativeTabs creativeTabs){
         super(Material.rock);
-        setCreativeTab(CTabs.tabBlocks);
+        setCreativeTab(creativeTabs);
         setBlockName(Constants.ModID + "_" + name);
         GameRegistry.registerBlock(this, name);
     }

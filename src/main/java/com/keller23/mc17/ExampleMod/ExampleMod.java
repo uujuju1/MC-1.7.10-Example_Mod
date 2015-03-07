@@ -15,6 +15,10 @@ import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.network.NetworkRegistry;
 import cpw.mods.fml.common.registry.GameRegistry;
+import cpw.mods.fml.relauncher.Side;
+import cpw.mods.fml.relauncher.SideOnly;
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.item.Item;
 
 @Mod(modid = Constants.ModID, name = Constants.ModName, version = Constants.Version)
 public class ExampleMod {
@@ -25,11 +29,13 @@ public class ExampleMod {
     @SidedProxy(clientSide = Constants.CLIENT_PROXY, serverSide = Constants.COMMON_PROXY)
     public static CommonProxy proxy;
 
+    public static CreativeTabs tabBlocks;
+
     @Mod.EventHandler // blocks, items, worldgen
     public void preInit(FMLPreInitializationEvent event){
+        CTabs.init();
         ModBlocks.init();
         ModItems.init();
-        CTabs.init();
         GameRegistry.registerWorldGenerator(new TestWorldGen(), 10); // higher number, lower in the priority list
     }
 

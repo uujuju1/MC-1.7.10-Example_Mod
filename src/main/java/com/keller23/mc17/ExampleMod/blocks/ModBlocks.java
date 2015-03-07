@@ -1,5 +1,6 @@
 package com.keller23.mc17.ExampleMod.blocks;
 
+import com.keller23.mc17.ExampleMod.ExampleMod;
 import net.minecraft.block.Block;
 
 public final class ModBlocks {
@@ -14,11 +15,11 @@ public final class ModBlocks {
 
 
     public static void init() {
-        testBlock = new TestBlock();
-        multiBlock = new MultiBlock();
-        smasher = new Smasher();
-        steakOre = new SteakOre();
-        beefOre = new BeefOre();
+        testBlock = new TestBlock(ExampleMod.tabBlocks);
+        multiBlock = new MultiBlock(ExampleMod.tabBlocks);
+        smasher = new Smasher(ExampleMod.tabBlocks);
+        steakOre = new SteakOre(ExampleMod.tabBlocks);
+        beefOre = new BeefOre(ExampleMod.tabBlocks);
 
         //flimFlamBlock = new flimFlamBlock();
     }

@@ -27,8 +27,8 @@ public class TestWorldGen implements IWorldGenerator {
         //addOre(ModBlocks.testBlock, world, random, x, z, 2, 30, 200, 50, 100); // smallest: 2, largest: 30, chance: 200, minY: 50, maxY: 100
 
         // add beef ore in the bottom 20m of the world, but above bedrock; more common
-        addOre(ModBlocks.beefOre, world, random, x, z, 2, 30, 40, 5, 20);
-        addOre(ModBlocks.beefOre, world, random, x, z, 2, 6, 10, 21, 40);
+        addOre(ModBlocks.beefOre, world, random, x, z, 2, 6, 400, 5, 20);
+        addOre(ModBlocks.beefOre, world, random, x, z, 1, 4, 10, 21, 40);
     }
 
     private void genEnd(Random random, World world, int x, int z) {

@@ -20,10 +20,10 @@ public class MultiBlock extends Block {
     private final int maxMeta = 3;
     private IIcon[] icons = new IIcon[6];
 
-    public MultiBlock() {
+    public MultiBlock(CreativeTabs creativeTabs) {
         super(Material.rock);
         setBlockName(Constants.ModID + "_" + name);
-        setCreativeTab(CTabs.tabBlocks);
+        setCreativeTab(creativeTabs);
         GameRegistry.registerBlock(this, ItemBlockMultiBlock.class, name);
     }
 

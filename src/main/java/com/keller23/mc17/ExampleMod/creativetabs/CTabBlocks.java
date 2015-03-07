@@ -4,8 +4,8 @@ import com.keller23.mc17.ExampleMod.blocks.ModBlocks;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 
-public class CreativeTabBlocks extends CreativeTabs {
-    public CreativeTabBlocks(String tabBlocksName) {
+public class CTabBlocks extends CreativeTabs {
+    public CTabBlocks(String tabBlocksName) {
         super(tabBlocksName);
     }
 
