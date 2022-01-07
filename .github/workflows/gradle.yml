@@ -1,10 +1,6 @@
 name: Java CI with Gradle
 
-on:
-  push:
-    branches: [ 1.12.2 ]
-  pull_request:
-    branches: [ 1.12.2 ]
+on: [push]
 
 jobs:
   build:
@@ -27,4 +23,4 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: mod
-        path: build/classes/java/main/MinCraft-1.12.2-0.1.0.jar
+        path: build/classes/java/main/MinCraft-1.7.10-0.1.jar
