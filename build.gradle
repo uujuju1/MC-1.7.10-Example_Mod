@@ -19,7 +19,7 @@ apply plugin: 'forge'
 
 version = "1.7.10-0.1"
 group= "com.keller23.mc17.ExampleMod" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = "kellerexamplemod17"
+archivesBaseName = "MinCraft"
 
 minecraft {
     version = "1.7.10-10.13.2.1291"
