@@ -23,4 +23,4 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: mod
-        path: build/classes/java/main/MinCraft-1.7.10-10.13.2.1291.jar
+        path: build/classes/java/main/MinCraft.jar
